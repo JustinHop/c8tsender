@@ -4,8 +4,11 @@
 #include "cast_channel.pb.h"
 #include <syslog.h>
 #include <getopt.h>
+#include <signal.h>
 #include <fstream>
 #include <atomic>
+#include <functional>
+
 
 void usage();
 extern char* __progname;

@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-import os, sys, time, httplib, json
+import os, sys, time, json
+import httplib2 as httplib
 
 uuid = None
 queue_only = queue_only if 'queue_only' in locals() else False
